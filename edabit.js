@@ -120,4 +120,10 @@ console.log(num_of_digits(200000))
 //logic number into string .toString() next find the converted string's length
 
 
+function Swap(a, b) {
+    return [b, a]; 
+}
+console.log(Swap(100, 200)); // Returns [200, 100]
+
+
 
